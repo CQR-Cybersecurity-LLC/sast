@@ -1,0 +1,41 @@
+{
+  "name": "sast",
+  "version": "1.7.3",
+  "description": "Static Application Security Testing (SAST), cross-file AST taint analysis across 16+ languages, secret detection with live key validation, SCA dependency CVE scanning, IaC misconfiguration checks, CMS/web-shell detection, and security triage & remediation.",
+  "author": {
+    "name": "CQR Cybersecurity LLC",
+    "url": "https://github.com/CQR-Cybersecurity-LLC"
+  },
+  "homepage": "https://github.com/CQR-Cybersecurity-LLC/sast",
+  "repository": "https://github.com/CQR-Cybersecurity-LLC/sast",
+  "license": "MIT",
+  "keywords": [
+    "sast",
+    "security",
+    "static-analysis",
+    "taint-analysis",
+    "vulnerability-scanner",
+    "secrets",
+    "sca",
+    "cve",
+    "iac",
+    "sarif",
+    "devsecops"
+  ],
+  "userConfig": {
+    "scan_on_edit": {
+      "type": "boolean",
+      "title": "Scan files on edit",
+      "description": "Run a single-file SAST check automatically after Write or Edit tool calls.",
+      "default": false,
+      "required": false
+    },
+    "provider_api_key": {
+      "type": "string",
+      "title": "Optional AI Provider API Key",
+      "description": "Optional API key for AI-assisted triage and remediation diffs when running standalone.",
+      "sensitive": true,
+      "required": false
+    }
+  }
+}

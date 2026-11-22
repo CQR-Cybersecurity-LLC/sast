@@ -1,0 +1,36 @@
+{
+  "name": "sast",
+  "description": "Official Claude Code marketplace for the SAST plugin (sast)",
+  "owner": {
+    "name": "CQR Cybersecurity LLC",
+    "url": "https://github.com/CQR-Cybersecurity-LLC"
+  },
+  "plugins": [
+    {
+      "name": "sast",
+      "description": "Static Application Security Testing (SAST), cross-file AST taint analysis across 16+ languages, secret detection with live key validation, SCA dependency CVE scanning, IaC misconfiguration checks, CMS/web-shell detection, and security triage & remediation.",
+      "version": "1.7.3",
+      "source": "./",
+      "author": {
+        "name": "CQR Cybersecurity LLC",
+        "url": "https://github.com/CQR-Cybersecurity-LLC"
+      },
+      "homepage": "https://github.com/CQR-Cybersecurity-LLC/sast",
+      "repository": "https://github.com/CQR-Cybersecurity-LLC/sast",
+      "license": "MIT",
+      "keywords": [
+        "sast",
+        "security",
+        "static-analysis",
+        "taint-analysis",
+        "vulnerability-scanner",
+        "secrets",
+        "sca",
+        "cve",
+        "iac",
+        "sarif",
+        "devsecops"
+      ]
+    }
+  ]
+}
